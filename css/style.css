@@ -1,0 +1,55 @@
+/*Set the properties of the body*/
+body{
+	box-sizing: border-box;
+}
+
+/*Set properties of section 2 about my projects*/
+#myproject {
+	display: inline;
+}
+
+/*Adding properties to container fluid*/
+.container-fluid {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+/*Set background properties for the header*/
+.bg1 {
+	background-color: #66EEC0;
+	color: #ffffff;
+}
+
+/*Set the main image to the center*/
+.img1 {
+	display: inline;
+}
+
+/*Set the properties of the navigation bar*/
+.navbar {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+
+/*Change the color when menus are hovered*/
+.navbar-nav li a:hover {
+	color: #13d !important;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+	.box {
+		width: 33.33%;
+		padding:0.5%;
+	}
+}
